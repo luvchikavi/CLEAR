@@ -31,8 +31,7 @@ if not st.session_state.start:
         - **Analyzing environmental impacts**
         - **Estimating financial costs**, including carbon taxes
         - **Ensuring regulatory compliance** with frameworks like CBAM, REACH, and more.
-        - **Model Simulation** simulate diffrent options using Mathematical models.
-
+        - **Model Simultaion** for better decision making and reliable results. 
 
         By connecting to the most up-to-date Life Cycle Assessment (LCA) and regulatory databases, CLEAR ensures users always
         work with the latest and most accurate information.
@@ -53,7 +52,7 @@ if not st.session_state.start:
     st.markdown(
         """
         **CLEAR v1.0**  
-        Developed by Dr. Luvchik  
+        Tool developed by Dr. Avi Luvchik  
         @ All rights reserved
         """,
         unsafe_allow_html=True
@@ -254,4 +253,4 @@ elif selected_tab == "Audit Progress":
 # Footer Attribution
 st.write("---")
 st.write("**CLEAR v1.0**")
-st.write("The CLEAR  created by Dr. Luvchik @ All rights reserved.")
+st.write("The CLEAR created by Dr. Avi Luvchik @ All rights reserved.")
