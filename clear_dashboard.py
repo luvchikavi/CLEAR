@@ -5,8 +5,7 @@ import plotly.express as px
 import json  # For handling audit data
 from datetime import datetime  # For timestamps
 
-# Automatically change the working directory to the script's directory
-os.chdir(os.path.dirname(__file__))
+
 
 # Set page configuration
 st.set_page_config(page_title="CLEAR Dashboard", layout="wide")
